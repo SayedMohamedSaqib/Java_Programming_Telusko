@@ -11,5 +11,7 @@ class Phi extends Eta { // Inheritance prevented
 }
 
 public class final_keyword {
-        
+        public static void main(String[] args) {
+            
+        }
 }
