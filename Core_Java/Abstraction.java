@@ -17,5 +17,6 @@ public class Abstraction {
     public static void main(String[] args) {
         Cars obj = new WagnonR();
         obj.drive();
+        obj.playMusic();
     }
 }
