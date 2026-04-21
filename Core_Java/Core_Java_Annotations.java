@@ -1,3 +1,4 @@
+@Deprecated
 class I {
     public void showMethodThatBelongsToI(){
         System.out.println("In I Show");
@@ -6,7 +7,7 @@ class I {
 
 class J extends I {
 
-    @Override
+    @Override //Early warning given at Compile time
     public void showMethodThatBelongstoI(){
         System.out.println("In J show");
     }
