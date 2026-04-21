@@ -14,7 +14,7 @@ class Batta extends Atta {
 
 public class upcasting_downcasting {
     public static void main(String[] args) {
-        Atta obj =  (Atta) new Batta(); //Upcasting
+        Atta obj =  new Batta(); //Upcasting
         obj.show1();
 
         Batta obj1 = (Batta) obj; //Downcasting
