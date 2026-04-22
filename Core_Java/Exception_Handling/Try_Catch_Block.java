@@ -1,5 +1,11 @@
 package Exception_Handling;
 
+
+class MyExecption extends Exception {
+    public MyExecption (String string) {
+        super(string);
+    }
+}
 public class Try_Catch_Block {
     
     public static void main(String[] args) {
@@ -11,9 +17,18 @@ public class Try_Catch_Block {
 
         try {
 
+            if(j == 0) {
+                throw new MyExecption("I dont want to print 0");
+
+            }
             j = 18/i;
             System.out.println(s.length());
             System.out.println(arr[5]);
+
+        }
+
+        catch(MyExecption e) {
+            System.out.println("thats the default output: " + e);
 
         }
 
