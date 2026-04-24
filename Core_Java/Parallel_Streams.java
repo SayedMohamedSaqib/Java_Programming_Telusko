@@ -13,11 +13,21 @@ public class Parallel_Streams {
         }
 
         long startStream = System.currentTimeMillis();
-        int sum1 = nums.stream().map(n -> n * 2).reduce(0, (c,e) -> c + e);
+
+        int sum1 = nums.stream()
+        .map(n -> n * 2)
+        .mapToInt(i -> i)
+        .sum();
+        
         long endStream = System.currentTimeMillis();
 
         long startPara = System.currentTimeMillis();
-        int sum2 = nums.parallelStream().map(n -> n * 2).mapToInt(i -> i).sum();
+
+        int sum2 = nums.parallelStream()
+        .map(n -> n * 2)
+        .mapToInt(i -> i)
+        .sum();
+        
         long endPara = System.currentTimeMillis();
 
         long res1 = (endStream - startStream);
