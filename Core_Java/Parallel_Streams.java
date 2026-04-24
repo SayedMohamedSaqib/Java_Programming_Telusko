@@ -15,7 +15,16 @@ public class Parallel_Streams {
         long startStream = System.currentTimeMillis();
 
         int sum1 = nums.stream()
-        .map(n -> n * 2)
+        .map(n -> {
+
+            try {
+                Thread.sleep(1);
+            } catch (Exception e) {
+                // TODO: handle exception
+            }
+
+            return n * 2;
+        })
         .mapToInt(i -> i)
         .sum();
         
@@ -24,7 +33,16 @@ public class Parallel_Streams {
         long startPara = System.currentTimeMillis();
 
         int sum2 = nums.parallelStream()
-        .map(n -> n * 2)
+          .map(n -> {
+
+            try {
+                Thread.sleep(1);
+            } catch (Exception e) {
+                // TODO: handle exception
+            }
+
+            return n * 2;
+        })
         .mapToInt(i -> i)
         .sum();
         
