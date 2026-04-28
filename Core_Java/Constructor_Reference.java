@@ -70,5 +70,6 @@ public class Constructor_Reference {
                         .toList();
 
         System.out.println(students);
+        students.forEach(System.out::println);
     }
 }
