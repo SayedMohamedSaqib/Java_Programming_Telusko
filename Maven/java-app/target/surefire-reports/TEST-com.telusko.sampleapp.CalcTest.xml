@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.telusko.sampleapp.CalcTest" time="0.052" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Study_Resources\Java_Telusko\Java_Programming_Telusko\Maven\java-app\target\test-classes;D:\Study_Resources\Java_Telusko\Java_Programming_Telusko\Maven\java-app\target\classes;C:\Users\sayed mohamed saqib\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.0\junit-jupiter-5.11.0.jar;C:\Users\sayed mohamed saqib\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\sayed mohamed saqib\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\sayed mohamed saqib\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\sayed mohamed saqib\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sayed mohamed saqib\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\sayed mohamed saqib\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.0\junit-jupiter-engine-5.11.0.jar;C:\Users\sayed mohamed saqib\.m2\repository\org\junit\platform\junit-platform-engine\1.11.0\junit-platform-engine-1.11.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\sayed mohamed saqib\AppData\Local\Temp\surefire7009483166564420974\surefirebooter-20260429134924192_3.jar C:\Users\sayed mohamed saqib\AppData\Local\Temp\surefire7009483166564420974 2026-04-29T13-49-24_013-jvmRun1 surefire-20260429134924192_1tmp surefire_0-20260429134924192_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Study_Resources\Java_Telusko\Java_Programming_Telusko\Maven\java-app\target\test-classes;D:\Study_Resources\Java_Telusko\Java_Programming_Telusko\Maven\java-app\target\classes;C:\Users\sayed mohamed saqib\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.0\junit-jupiter-5.11.0.jar;C:\Users\sayed mohamed saqib\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\sayed mohamed saqib\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\sayed mohamed saqib\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\sayed mohamed saqib\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sayed mohamed saqib\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\sayed mohamed saqib\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.0\junit-jupiter-engine-5.11.0.jar;C:\Users\sayed mohamed saqib\.m2\repository\org\junit\platform\junit-platform-engine\1.11.0\junit-platform-engine-1.11.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sayed mohamed saqib"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Study_Resources\Java_Telusko\Java_Programming_Telusko\Maven\java-app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\sayed mohamed saqib\AppData\Local\Temp\surefire7009483166564420974\surefirebooter-20260429134924192_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
+    <property name="user.name" value="sayed mohamed saqib"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sayed mohamed saqib\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SAYEDM~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="D:\Study_Resources\Java_Telusko\Java_Programming_Telusko\Maven\java-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\sayed mohamed saqib\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\sayed mohamed saqib\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\sayed mohamed saqib\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\libnvvp;D:\SQL\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Users\sayed mohamed saqib\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\lib;C:\ProgramData\chocolatey\bin;D:\MATLAB\bin;C:\Program Files\MongoDB\Server\8.0\bin\mongod.exe;C:\Program Files\MongoDB\Server\8.0\bin\mongosh.exe;D:\Miniconda;D:\Miniconda\Scripts;D:\Miniconda\Library\bin;C:\Program Files\GitHub CLI\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;D:\MATLAB_32\v851\runtime\win32;D:\nodejs\;D:\MiKTeX\miktex\bin\x64;C:\Program Files\Java\jdk-17\bin;D:\apache-maven-3.9.15\bin;C:\Users\sayed mohamed saqib\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\sayed mohamed saqib\AppData\Local\Programs\Python\Python311\;C:\Python312\Scripts\;C:\Python312\;C:\Users\sayed mohamed saqib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\sayed mohamed saqib\AppData\Local\Programs\Python\Python312\;C:\Users\sayed mohamed saqib\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin;;C:\Users\sayed mohamed saqib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;D:\anaconda3;D:\anaconda3\Scripts;D:\anaconda3\Library\bin;C:\Users\sayed mohamed saqib\AppData\Roaming\npm;D:\MiKTeX\miktex\bin\x64\;c:\Users\sayed mohamed saqib\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testCalc" classname="com.telusko.sampleapp.CalcTest" time="0.025"/>
+</testsuite>
