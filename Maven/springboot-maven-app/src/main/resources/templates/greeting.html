@@ -1,0 +1,28 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Greeting App</title>
+    <style>
+      body {
+        font-family: Arial;
+        text-align: center;
+        margin-top: 100px;
+        background-color: #f0f8ff;
+      }
+
+      h1 {
+        color: #333;
+        font-size: 40px;
+      }
+
+      p {
+        font-size: 22px;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 th:text="${greeting}">Hello</h1>
+    <p th:text="${time}">Time</p>
+  </body>
+</html>
