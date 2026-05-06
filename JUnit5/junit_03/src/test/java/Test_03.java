@@ -11,6 +11,6 @@ public class Test_03 {
 
     @Test
     void test_2() {
-        assertEquals(10,10);
+        assertEquals(10,10, () -> "Unequal Numbers");
     }
 }
