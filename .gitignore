@@ -25,3 +25,7 @@ target/
 # Crash logs
 hs_err_pid*
 replay_pid*
+
+# DB Stuff
+JDBC/FirstJDBCApp/src/com/telusko/jdbclearning/JDBCUtil.java
+JDBC/JDBCApp_02/src/com/telusko/learning/JDBCUtil.java
