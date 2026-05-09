@@ -25,7 +25,7 @@ public class FirstServletApp extends HttpServlet {
         String city = request.getParameter("ucity");
 
         PrintWriter writer = response.getWriter();
-        writer.println("Hello" + name);
+        writer.println("Hello " + name);
         writer.println("I know that you are from " + city);
 
         writer.close();
