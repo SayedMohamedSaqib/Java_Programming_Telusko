@@ -13,7 +13,7 @@ public class RegisterServletApp extends HttpServlet {
 
         String name = req.getParameter("uname");
         String city = req.getParameter("ucity");
-
+        System.out.println("Name " + name + " City" + city);
         PrintWriter writer = resp.getWriter();
 
         resp.sendRedirect(req.getContextPath() + "/success.jsp");
