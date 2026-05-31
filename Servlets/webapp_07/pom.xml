@@ -4,12 +4,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.telusko.learning</groupId>
-  <artifactId>webapp_04</artifactId>
+  <groupId>com.telusko</groupId>
+  <artifactId>webapp_07</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>webapp_04 Maven Webapp</name>
+  <name>webapp_07 Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -34,18 +34,10 @@
     <version>6.1.0</version>
     <scope>provided</scope>
 </dependency>
-
-<!-- Source: https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api -->
-<dependency>
-    <groupId>jakarta.servlet</groupId>
-    <artifactId>jakarta.servlet-api</artifactId>
-    <version>6.1.0</version>
-    <scope>provided</scope>
-</dependency>
   </dependencies>
 
   <build>
-    <finalName>webapp_04</finalName>
+    <finalName>webapp_07</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
